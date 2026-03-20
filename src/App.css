@@ -1,0 +1,23 @@
+:root {
+  --telegram-blue: #3390ec;
+  --telegram-bg: #f4f7f9;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.chat-bubble-me {
+  background-color: var(--telegram-blue);
+  color: white;
+}
+
+.chat-bubble-them {
+  background-color: white;
+  color: black;
+  border: 1px solid #e2e8f0;
+}
